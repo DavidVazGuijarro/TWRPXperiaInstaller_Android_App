@@ -29,13 +29,11 @@ android {
     }
     buildTypes {
         debug {
-            zipAlign true
             runProguard false
             jniDebugBuild true
             debuggable true
         }
         release {
-            zipAlign true
             signingConfig signingConfigs.release
             jniDebugBuild false
             debuggable false
